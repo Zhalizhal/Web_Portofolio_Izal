@@ -1,0 +1,172 @@
+export const translations = {
+  EN: {
+    // Menu
+    menu_about: "About",
+    menu_porto: "Porto",
+    menu_contact: "Contact",
+    menu_address: "Address",
+    menu_socials: "Socials",
+    menu_contact_me: "Contact Me",
+    menu_close: "Close",
+    menu_trigger: "Menu",
+
+    // Hero
+    hero_title: "Baharuddin Izha Al Sya'na",
+    hero_subtitle: "3D Artist & Designer from Lamongan, East Java.",
+    hero_desc: "Specializing in architectural rendering, 3D animation, and design.",
+
+    // Education & Experience
+    intro_subtitle: "INTRODUCTION",
+    intro_title: "Education & Professional Experiences",
+    education_title: "Education",
+    experience_title: "Work Experience",
+    edu_smk: "Vocational High School 1 Lamongan",
+    edu_smk_dept: "Multimedia Department",
+    edu_uad: "Ahmad Dahlan University",
+    edu_uad_degree: "Bachelor of Information Technology - 2021",
+    exp_deltaview: "Deltaview Cito",
+    exp_deltaview_role: "Graphic Design (2016)",
+    exp_uad_lab: "Computer Lab - UAD",
+    exp_uad_lab_role: "Assistant for Database, Statistics, Web Engineering, Multimedia",
+    exp_svein: "Svein Indonesia",
+    exp_svein_role1: "Assistant Project Manager & Leader Animation (2024 - 2025)",
+    exp_svein_role2: "3D Animator (2023 - 2025)",
+    exp_svein_role3: "3D Artist (2022 - 2025)",
+    exp_taksu: "Taksu Visual",
+    exp_taksu_role: "3D Visualizer (2026 - Present)",
+    exp_freelance: "Freelance",
+    exp_freelance_role: "3D Artist (2025)",
+    collab_text: "Open to Collaboration",
+    present_text: "Present",
+
+    // Skills
+    skills_software: "Software Skills",
+    skills_programming: "Programming",
+    skill_level: "Skill Level",
+    skill_desc_blender: "Modeling, Concept, Environment, Lighting, Rendering, Compositing",
+    skill_desc_3dsmax: "Advanced Modeling & Architecture",
+    skill_desc_sketchup: "Architectural Design",
+    skill_desc_adobe: "Illustrator (Ai), Photoshop (Ps), Premiere Pro (Pr)",
+    skill_desc_unity: "Game Engine & Interactive",
+
+    // Contact
+    contact_cta: "Let's create something distinctive.",
+    contact_desc: "I am available for freelance work and open to discussing new opportunities.",
+    contact_label_name: "Name (required)",
+    contact_placeholder_first: "First Name",
+    contact_placeholder_last: "Last Name",
+    contact_label_email: "Email (required)",
+    contact_label_message: "Message (required)",
+    contact_btn_submit: "SUBMIT",
+    contact_btn_sending: "SENDING...",
+    contact_connect_title: "Connect",
+    contact_connect_desc: "Check out my social media profiles to see my daily updates.",
+    contact_portfolio_title: "Portfolio",
+    contact_portfolio_desc: "Explore my detailed works and case studies on these platforms.",
+    contact_dev_title: "Development",
+    contact_dev_desc: "Review my code repositories and open source contributions.",
+    contact_rights: "All rights reserved.",
+    contact_designed: "Designed with Passion.",
+    contact_success: "Message sent successfully!",
+    contact_failed: "Failed to send message",
+
+    // Works
+    works_title: "Works",
+    works_filter: "Filter",
+    works_scope: "Scope",
+    works_type: "Type",
+    works_category: "Category",
+    works_no_items: "No items found matching your filters.",
+
+    // Admin
+    admin_title: "Portfolio Admin Panel",
+    admin_subtitle: "Manage your local portfolio items (Project & Content)",
+    admin_label_additional: "Additional Files (Gallery)",
+    admin_desc_additional: "Upload additional images/videos for this project."
+  },
+  ID: {
+    // Menu
+    menu_about: "Tentang",
+    menu_porto: "Porto",
+    menu_contact: "Kontak",
+    menu_address: "Alamat",
+    menu_socials: "Media Sosial",
+    menu_contact_me: "Hubungi Saya",
+    menu_close: "Tutup",
+    menu_trigger: "Menu",
+
+    // Hero
+    hero_title: "Baharuddin Izha Al Sya'na",
+    hero_subtitle: "3D Artist & Desainer dari Lamongan, Jawa Timur.",
+    hero_desc: "Spesialis dalam rendering arsitektur, animasi 3D, dan desain.",
+
+    // Education & Experience
+    intro_subtitle: "PERKENALAN",
+    intro_title: "Pendidikan & Pengalaman Profesional",
+    education_title: "Pendidikan",
+    experience_title: "Pengalaman Kerja",
+    edu_smk: "SMK Negeri 1 Lamongan",
+    edu_smk_dept: "Jurusan Multimedia",
+    edu_uad: "Universitas Ahmad Dahlan",
+    edu_uad_degree: "Sarjana Teknologi Informasi - 2021",
+    exp_deltaview: "Deltaview Cito",
+    exp_deltaview_role: "Desain Grafis (2016)",
+    exp_uad_lab: "Laboratorium Komputer - UAD",
+    exp_uad_lab_role: "Asisten Praktikum Basis Data, Statistika, Rekayasa Web, Multimedia",
+    exp_svein: "Svein Indonesia",
+    exp_svein_role1: "Asisten Manajer Proyek & Ketua Animasi (2024 - 2025)",
+    exp_svein_role2: "3D Animator (2023 - 2025)",
+    exp_svein_role3: "3D Artist (2022 - 2025)",
+    exp_taksu: "Taksu Visual",
+    exp_taksu_role: "3D Visualizer (2026 - Sekarang)",
+    exp_freelance: "Freelance",
+    exp_freelance_role: "3D Artist (2025)",
+    collab_text: "Terbuka untuk Kolaborasi",
+    present_text: "Sekarang",
+
+    // Skills
+    skills_software: "Keahlian Software",
+    skills_programming: "Pemrograman",
+    skill_level: "Tingkat Keahlian",
+    skill_desc_blender: "Modeling, Concept, Environment, Lighting, Rendering, Compositing",
+    skill_desc_3dsmax: "Pemodelan Lanjut & Arsitektur",
+    skill_desc_sketchup: "Desain Arsitektur",
+    skill_desc_adobe: "Illustrator (Ai), Photoshop (Ps), Premiere Pro (Pr)",
+    skill_desc_unity: "Mesin Game & Interaktif",
+
+    // Contact
+    contact_cta: "Mari buat sesuatu yang istimewa.",
+    contact_desc: "Saya bersedia untuk pekerjaan lepas (freelance) dan terbuka untuk mendiskusikan peluang baru.",
+    contact_label_name: "Nama (wajib)",
+    contact_placeholder_first: "Nama Depan",
+    contact_placeholder_last: "Nama Belakang",
+    contact_label_email: "Email (wajib)",
+    contact_label_message: "Pesan (wajib)",
+    contact_btn_submit: "KIRIM",
+    contact_btn_sending: "MENGIRIM...",
+    contact_connect_title: "Hubungi",
+    contact_connect_desc: "Kunjungi profil media sosial saya untuk melihat perkembangan harian.",
+    contact_portfolio_title: "Portofolio",
+    contact_portfolio_desc: "Jelajahi karya detail dan studi kasus saya di platform berikut.",
+    contact_dev_title: "Pengembangan",
+    contact_dev_desc: "Tinjau repositori kode dan kontribusi sumber terbuka saya.",
+    contact_rights: "Hak cipta dilindungi undang-undang.",
+    contact_designed: "Didesain dengan Penuh Semangat.",
+    contact_success: "Pesan berhasil dikirim!",
+    contact_failed: "Gagal mengirim pesan",
+
+    // Works
+    works_title: "Karya",
+    works_filter: "Filter",
+    works_scope: "Scope",
+    works_type: "Type",
+    works_category: "Kategori",
+    works_no_items: "Tidak ada item yang cocok dengan filter Anda.",
+
+    // Admin
+    admin_title: "Panel Admin Portofolio",
+    admin_subtitle: "Kelola item portofolio lokal Anda (Project & Konten)",
+    admin_label_additional: "Berkas Tambahan (Galeri)",
+    admin_desc_additional: "Unggah gambar/video tambahan untuk proyek ini."
+  }
+};
