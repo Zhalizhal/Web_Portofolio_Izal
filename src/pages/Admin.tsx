@@ -220,10 +220,6 @@ const Admin: React.FC = () => {
         e.dataTransfer.effectAllowed = 'move';
     };
 
-    const handleDragOver = (e: React.DragEvent, index: number) => {
-        e.preventDefault();
-    };
-
     const handleDrop = async (e: React.DragEvent, index: number) => {
         e.preventDefault();
         if (draggedIndex === null || draggedIndex === index) return;
@@ -885,7 +881,7 @@ const Admin: React.FC = () => {
                                         key={idx}
                                         draggable
                                         onDragStart={(e) => handleDragStart(e, idx)}
-                                        onDragOver={(e) => handleDragOver(e, idx)}
+                                        onDragOver={(e) => e.preventDefault()}
                                         onDrop={(e) => handleDrop(e, idx)}
                                         className={`flex flex-col sm:flex-row sm:justify-between sm:items-center bg-black/60 border p-3 rounded transition-all text-sm gap-3 sm:gap-4 cursor-grab active:cursor-grabbing ${draggedIndex === idx
                                                 ? 'border-blue-600 opacity-40 bg-neutral-900'

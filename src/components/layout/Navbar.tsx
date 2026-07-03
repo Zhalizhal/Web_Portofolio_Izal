@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import FullScreenMenu from './FullScreenMenu';
 import { useLanguage } from '../../context/LanguageContext';
@@ -8,8 +8,6 @@ const Navbar: React.FC = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
     const { language, setLanguage, t } = useLanguage();
-    const { pathname } = useLocation();
-    const isAdmin = pathname === '/admin';
 
     useEffect(() => {
         const handleScroll = () => {
