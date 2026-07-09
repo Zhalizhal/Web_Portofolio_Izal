@@ -13,7 +13,7 @@ export const translations = {
     // Hero
     hero_title: "Baharuddin Izha Al Sya'na",
     hero_subtitle: "3D Artist & Designer from Lamongan, East Java.",
-    hero_desc: "Specializing in architectural rendering, 3D animation, and design.",
+    hero_desc: "Specializing in LRC, Environment Concept, Animation, and Design.",
 
     // Education & Experience
     intro_subtitle: "INTRODUCTION",
@@ -98,7 +98,7 @@ export const translations = {
     // Hero
     hero_title: "Baharuddin Izha Al Sya'na",
     hero_subtitle: "3D Artist & Desainer dari Lamongan, Jawa Timur.",
-    hero_desc: "Spesialis dalam rendering arsitektur, animasi 3D, dan desain.",
+    hero_desc: "Spesialis LRC, Enviroment Concept, Animation dan Desain.",
 
     // Education & Experience
     intro_subtitle: "PERKENALAN",

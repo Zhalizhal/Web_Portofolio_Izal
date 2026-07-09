@@ -4,6 +4,7 @@ import { motion, useScroll, useTransform, MotionValue } from 'framer-motion';
 interface ParallaxSectionProps {
     children: React.ReactNode;
     backgroundImage?: string;
+    customBackground?: React.ReactNode;
     className?: string;
     backgroundPosition?: string;
 }
@@ -12,7 +13,7 @@ function useParallax(value: MotionValue<number>, distance: number) {
     return useTransform(value, [0, 1], [-distance, distance]);
 }
 
-const ParallaxSection: React.FC<ParallaxSectionProps> = ({ children, backgroundImage, className = "", backgroundPosition = "center" }) => {
+const ParallaxSection: React.FC<ParallaxSectionProps> = ({ children, backgroundImage, customBackground, className = "", backgroundPosition = "center" }) => {
     const ref = useRef(null);
     const { scrollYProgress } = useScroll({
         target: ref,
@@ -46,6 +47,12 @@ const ParallaxSection: React.FC<ParallaxSectionProps> = ({ children, backgroundI
                         />
                         <div className="absolute inset-0 bg-black/80" />
                     </motion.div>
+                </div>
+            )}
+
+            {customBackground && (
+                <div className="absolute inset-0 z-0">
+                    {customBackground}
                 </div>
             )}
 

@@ -37,7 +37,7 @@ const ContactSection: React.FC = () => {
     };
     return (
         <ParallaxSection backgroundImage="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2672&auto=format&fit=crop">
-            <div className="w-full flex flex-col justify-start md:justify-between pt-24 pb-12 md:pt-20 md:pb-4 md:h-full text-white max-w-none mx-auto">
+            <div id="contact-section" className="w-full flex flex-col justify-start md:justify-between pt-24 pb-12 md:pt-20 md:pb-4 md:h-full text-white max-w-none mx-auto">
 
                 {/* Top Section - Grid Layout */}
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 xl:gap-32 items-start">
